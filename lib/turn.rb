@@ -34,4 +34,5 @@ def turn(board)
     board.push(input)
   else 
     puts "Please enter 1-9:"
+  end
 end
