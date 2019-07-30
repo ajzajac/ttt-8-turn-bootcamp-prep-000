@@ -10,4 +10,4 @@ display_board(board)
 turn(board)
 input = gets.strip
 input_to_index(input)
-position_taken?()
+position_taken?(board, index)
