@@ -9,5 +9,5 @@ puts "Welcome to Tic Tac Toe!"
 display_board(board)
 turn(board)
 input = gets.strip
-input_to_index(input)
+index = input_to_index(input)
 valid_move?(board, index)
