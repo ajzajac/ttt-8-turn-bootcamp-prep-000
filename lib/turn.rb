@@ -25,3 +25,4 @@ def move(board, index, input="X")
 board[index] = input
 return board
 end
+
