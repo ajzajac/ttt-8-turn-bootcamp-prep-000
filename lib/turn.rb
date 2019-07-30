@@ -17,3 +17,11 @@ def position_taken?(board, index)
   ! (board[index] ==  " " || board[index] == "" || board[index] == nil) 
 end
 
+def input_to_index(input)
+  input.to_i - 1
+end
+
+def move(board, index, input="X")
+board[index] = input
+return board
+end
